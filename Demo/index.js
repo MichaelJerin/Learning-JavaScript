@@ -222,21 +222,78 @@
 
 // console.log(randomNum);
 
-const myButton = document.getElementById("myButton");
-const label1 = document.getElementById("myLabel1");
-const label2 = document.getElementById("myLabel3");
-const label3 = document.getElementById("myLabel2");
-const min = 1;
-const max = 6;
-let randomNum1;
-let randomNum2;
-let randomNum3;
+// const myButton = document.getElementById("myButton");
+// const label1 = document.getElementById("myLabel1");
+// const label2 = document.getElementById("myLabel3");
+// const label3 = document.getElementById("myLabel2");
+// const min = 1;
+// const max = 6;
+// let randomNum1;
+// let randomNum2;
+// let randomNum3;
 
-myButton.onclick = function() {
-    randomNum1 = Math.floor(Math.random() * max) + min;
-    randomNum2 = Math.floor(Math.random() * max) + min;
-    randomNum3 = Math.floor(Math.random() * max) + min;
-    label1.textContent = randomNum1;
-    label2.textContent = randomNum2;
-    label3.textContent = randomNum3
+// myButton.onclick = function() {
+//     randomNum1 = Math.floor(Math.random() * max) + min;
+//     randomNum2 = Math.floor(Math.random() * max) + min;
+//     randomNum3 = Math.floor(Math.random() * max) + min;
+//     label1.textContent = randomNum1;
+//     label2.textContent = randomNum2;
+//     label3.textContent = randomNum3
+// }
+
+// // If statements = If a condition is true execute some code if not, do something else
+
+// let age = 25;
+
+// if(age >= 18) {
+//     console.log("You are old enough...");
+// } else {
+//     console.log("You must be 18+");
+// }
+
+// let time = 9;
+
+// if(time < 12) {
+//     console.log("Good Morning!");
+// } else {
+//     console.log("Good Afternoon");
+// } 
+
+// let isStudent = false;
+
+// if(isStudent) {
+//     console.log("You are a student!");
+// } else {
+//     console.log("You are not a student!");
+// }
+
+let age = 0;
+
+//  let hasLicense = false;
+
+//  if(age >= 18) {
+//     console.log("You are old enough to drive");
+//     if(hasLicense) {
+//         console.log("You have your license!")
+//     } else {
+//         console.log("You do not have your license yet!");
+//     }
+//  } else {
+//     console.log("You must be 18+ to have a license");
+//  }
+
+if(age >= 100) {
+    console.log("You are too old to enter this site");
+} else if (age == 0) {
+    console.log("You can't enter. You were just born.");
+}else if(age >= 18) {
+    console.log("You are old enough to enter this site");
+} else if(age < 0) {
+    console.log("Your age can't below 0")
+} else {
+    console.log("You must be 18+ to enter this site");
 }
+
+
+
+
